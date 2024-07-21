@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 void dfs(int i, int j, vector<vector<char>>& v) {
     if (i < 0 || j < 0 || i == v.size() || j == v[0].size() || v[i][j] == '#') {
         return;
